@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
 Body{
     background-color: #939393;
     font-family: 'Source Code Pro', monospace;
@@ -21,4 +26,9 @@ Body{
     width: 150px;
     display: inline-block;
 }
-
+.links{
+    background-color: #242424;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
