@@ -4,18 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu curriculo</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<!-- Divisão do cabeçalho -->
+    <div style="width: 800px; margin-left: auto; margin-right: auto; background-color: lightgray; padding: 100px; padding-top: 0%;">
+<!--Divisão do cabeçalho -->
     <div class="cabecalho">
-        <h2>Vinícius Martins dos Santos</h2>
+        <h2 style="padding-top: 37px;">Vinícius Martins dos Santos</h2>
         <h3>Analista de dados - junior</h3>
     </div>
-<!-- Divisão do sobre mim-->
-    <div>
-        <img src="/assets/literalmente eu2.jpg" alt="Vinícius Martins">
-        <p>Olá, seja bem vindo ao meu espaço! Sou um jovem de 20 anos de idade que começou na carreira de tecnologia recentemente, aproximadamente 2 anos atrás. Sou facinado por idiomas, comunicação e trabalho em equipe. Sou um entusiasta na área tecnologia desde criança, por influência de jogos e criadores de conteúdo da época. Meu objetivo pessoal é me tornar uma pessoa independente, com isso desenvolvi o habito de trabalhar com muita organização</p>
+<!--Divisão do texto do sobre mim-->
+<div style="display: inline-block; width: 50%; float: right; margin-top: 75px;">
+    <p>Olá, seja bem vindo ao meu espaço! Sou um jovem de 20 anos de idade que começou na carreira de tecnologia recentemente, aproximadamente 2 anos atrás. Sou facinado por idiomas, comunicação e trabalho em equipe. Sou um entusiasta na área tecnologia desde criança, por influência de jogos e criadores de conteúdo da época. Meu objetivo pessoal é me tornar uma pessoa independente, com isso desenvolvi o habito de trabalhar com muita organização</p>
+</div>
+<!--Divisão das imagens do sobre mim-->
+    <div style="display: inline-block; text-align: center;">
+        <img src="assets/literalmente_eu2.jpg" alt="Vinícius_Martins" style="width: 350px; padding-top: 30px; border-radius: 50%;"><br>
+        <a href="https://www.linkedin.com/in/dsviniciusmartins/" target="_blank">
+            <img src="assets/linkedin.png" class="icones">
+        </a>
+        <a href="https://www.instagram.com/viini.martin/" target="_blank">
+            <img src="assets/instagram.png" class="icones">
+        </a>
+        <a href="https://wa.me//5521985850627" target="_blank">
+            <img src="assets/whatsapp.png" class="icones">
+        </a>
     </div>
+<!--Divisão da formações acadêmicas-->
+<div>
+    <h2>Formações</h2>
+    <ol type="1">
+        <li><b>Python</b></li>
+        <ul>
+            <li>Python impressionador - Hashtag treinamentos</li>
+            <li>Interactive Python Dashboards with Plotly and Dash - Udemy</li>
+        </ul>
+        <br>
+        <li><b>SQL</b></li>
+        <ul>
+            <li>SQL impressionador - Hashtag treinamentos</li>
+            <li>Formação SQL Database Specialist - DIO</li>
+        </ul>
+        <br>
+        <li><b>Power BI</b></li>
+        <ul>
+            <li>Power BI impressionador - Hashtag treinamentos</li>
+        </ul>
+        <br>
+        <li><b>Excel/Google Sheets</b></li>
+        <ul>
+            <li>Excel: domine o editor de planilhas - Alura</li>
+            <li>Data Analysis: Google Sheets - Alura</li>
+        </ul>
+        <br>
+        <li><b>Figma</b></li>
+        <ul>
+            <li>Introdução prática ao Figma - DIO</li>
+            <li>Figma - Introdução à Ferramenta - DIO</li>
+        </ul>
+        <br>
+        <li><b>Engenharia de rede</b></li>
+        <ul>
+            <li>Arquitetura de Redes - Udemy</li>
+        </ul>
+        <br>
+        <li><b>Idiomas</b></li>
+        <ul>
+            <li>Português - Nativo</li>
+            <li>Inglês - Avançado</li>
+            <li>Francês - Básico</li>
+        </ul>
+    </ol>
+</div>
+<!--Divisão Meu projetos-->
+<div>
+    <h2>Meus repositórios</h2>
+    <a href="https://github.com/ViniMartinSaint">Github</a><br>
+    <a href="https://www.kaggle.com/viniciusds">Kagle</a>
+</div>
+<!--Divisão link para contato-->
+<div>
+    <h2>Entre em contato comigo!</h2>
+    <form action="">
+        <div class="titulos">
+            <label for="fname" class="titulos">Nome:</label>
+        </div>
+        <input type="text" id="textname" value=""><br>
+
+        <div class="titulos">
+            <label for="email">Email:</label>
+        </div>
+        <input type="text" id="textemail" value=""><br><br>
+
+        <div class="titulos">
+            <label for="contato">Texto do email:</label>
+        </div>
+        <textarea type="text" id="textcontato" value="" placeholder="Digite oque seu coração mandar!"></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+</div>
 </body>
 </html>

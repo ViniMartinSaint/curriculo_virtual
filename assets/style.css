@@ -1,26 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@800&display=swap');
 Body{
     background-color: #939393;
+    font-family: 'Source Code Pro', monospace;
 }
 
-div .cabecalho{
-    width: 1229px;
-    height: 218px;
+.cabecalho{
+    margin-left: auto;
+    margin-right: auto;
+    height: 135px;
     flex-shrink: 0;
-    background: #242424;
-
-div .sobremim{
-
+    background-color: #242424;
+    text-align: center;
+    color: white;
+}
+.icones{
+    width: 50px
 }
 
-div .formacoes{
-
-}
-
-div .projetos{
-
-}
-
-div .contato{
-
+.titulos{
+    width: 150px;
+    display: inline-block;
 }
 
